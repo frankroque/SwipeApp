@@ -12,7 +12,7 @@ class FirstPageViewController: UIViewController{
     
     private let label1: UILabel = {
         let label = UILabel()
-        label.text = "Page 1"
+        label.text = "Page 1".uppercased()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -30,8 +30,9 @@ class FirstPageViewController: UIViewController{
     }
 
     func autoLayoutConstraints(){
-        label1.topAnchor.constraint(equalTo: view.topAnchor, constant: 50).isActive = true
-        label1.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20).isActive = true
+        label1.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        label1.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        
     }
 
 }
