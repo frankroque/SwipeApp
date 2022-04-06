@@ -4,5 +4,4 @@ This is a simple application that allows the user to swipe between pages. The ap
 
 I've color coded the pages for the user to clearly observe the turning of the pages:
 
-
-
+![alt text](https://github.com/[frankroque]/[SwipeApp]/blob/[main]/page1.jpg?raw=true)
